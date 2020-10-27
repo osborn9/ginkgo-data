@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Castrillon/denormal/denormal.mtx",
+        "problem": {
+            "id": 1892,
+            "group": "Castrillon",
+            "name": "denormal",
+            "rows": 89400,
+            "cols": 89400,
+            "nonzeros": 1156224,
+            "real": true,
+            "binary": false,
+            "2d3d": false,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "counter-example problem",
+            "row_distribution": {
+                "min": 6,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 12.933154362416108,
+                "variance": 0.22452494932519224,
+                "skewness": -7.890925098731522,
+                "kurtosis": 65.9717613214127,
+                "hyperskewness": -561.4942423718069,
+                "hyperflatness": 4871.1190141629899
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 13.0,
+                "median": 13.0,
+                "q3": 13.0,
+                "max": 13,
+                "mean": 12.933154362416108,
+                "variance": 0.22452494932519224,
+                "skewness": -7.890925098731522,
+                "kurtosis": 65.9717613214127,
+                "hyperskewness": -561.4942423718069,
+                "hyperflatness": 4871.1190141629899
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 14232292,
+                "time": 60756.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 172.48712279482349,
+                "generate": {
+                    "components": {},
+                    "time": 18298
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1373363633
+                },
+                "residual_norm": 101.63886723543854,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 172.48712279482349,
+                "generate": {
+                    "components": {},
+                    "time": 15521949
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1662377164
+                },
+                "residual_norm": 183.87401246958906,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 172.48712279482349,
+                "generate": {
+                    "components": {},
+                    "time": 15934872
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1579847308
+                },
+                "residual_norm": 184.59827147534836,
+                "completed": true
+            }
+        }
+    }
+]

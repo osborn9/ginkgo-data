@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Um/offshore/offshore.mtx",
+        "problem": {
+            "id": 2283,
+            "group": "Um",
+            "name": "offshore",
+            "rows": 259789,
+            "cols": 259789,
+            "nonzeros": 4242673,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "electromagnetics problem",
+            "row_distribution": {
+                "min": 5,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 19.0,
+                "max": 31,
+                "mean": 16.331226495348149,
+                "variance": 7.908191999315424,
+                "skewness": 0.3009630474347027,
+                "kurtosis": 2.8714296520950146,
+                "hyperskewness": 2.604936476953278,
+                "hyperflatness": 15.157358508543562
+            },
+            "col_distribution": {
+                "min": 5,
+                "q1": 13.0,
+                "median": 16.0,
+                "q3": 19.0,
+                "max": 31,
+                "mean": 16.331226495348149,
+                "variance": 7.908191999315424,
+                "skewness": 0.3009630474347027,
+                "kurtosis": 2.8714296520950146,
+                "hyperskewness": 2.604936476953278,
+                "hyperflatness": 15.157358508543562
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 51951236,
+                "time": 184331.3,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 294.0232083751574,
+                "generate": {
+                    "components": {},
+                    "time": 18343
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 2830606999
+                },
+                "residual_norm": 10790.788461119455,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 294.0232083751574,
+                "generate": {
+                    "components": {},
+                    "time": 48300618
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 2158,
+                    "time": 793569874
+                },
+                "residual_norm": 2.894273198699802e-8,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 294.0232083751574,
+                "generate": {
+                    "components": {},
+                    "time": 48544749
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 2382,
+                    "time": 798591667
+                },
+                "residual_norm": 2.7443752137606467e-8,
+                "completed": true
+            }
+        }
+    }
+]

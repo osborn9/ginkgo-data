@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/ACUSIM/Pres_Poisson/Pres_Poisson.mtx",
+        "problem": {
+            "id": 1184,
+            "group": "ACUSIM",
+            "name": "Pres_Poisson",
+            "rows": 14822,
+            "cols": 14822,
+            "nonzeros": 715804,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 18,
+                "q1": 50.0,
+                "median": 50.0,
+                "q3": 50.0,
+                "max": 50,
+                "mean": 48.29334772635272,
+                "variance": 26.17922845001264,
+                "skewness": -2.997143879449404,
+                "kurtosis": 10.879391561663413,
+                "hyperskewness": -40.839524286574427,
+                "hyperflatness": 160.07912419963268
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 50.0,
+                "median": 50.0,
+                "q3": 50.0,
+                "max": 50,
+                "mean": 48.29334772635272,
+                "variance": 26.17922845001264,
+                "skewness": -2.997143879449404,
+                "kurtosis": 10.879391561663413,
+                "hyperskewness": -40.839524286574427,
+                "hyperflatness": 160.07912419963268
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 8648940,
+                "time": 36758.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 70.12176527489327,
+                "generate": {
+                    "components": {},
+                    "time": 641860
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 3351,
+                    "time": 485301606
+                },
+                "residual_norm": 6.668144372438237e-9,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 70.12176527489327,
+                "generate": {
+                    "components": {},
+                    "time": 5829605
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 368,
+                    "time": 51599149
+                },
+                "residual_norm": 6.91810098885996e-9,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 70.12176527489327,
+                "generate": {
+                    "components": {},
+                    "time": 5245099
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 368,
+                    "time": 51438173
+                },
+                "residual_norm": 6.262158537050534e-9,
+                "completed": true
+            }
+        }
+    }
+]

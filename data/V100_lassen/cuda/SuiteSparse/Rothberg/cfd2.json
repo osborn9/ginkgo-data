@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Rothberg/cfd2/cfd2.mtx",
+        "problem": {
+            "id": 805,
+            "group": "Rothberg",
+            "name": "cfd2",
+            "rows": 123440,
+            "cols": 123440,
+            "nonzeros": 3085406,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 30,
+                "mean": 25.01537589112119,
+                "variance": 14.90175645307046,
+                "skewness": -1.4494742446389242,
+                "kurtosis": 3.5513693639913757,
+                "hyperskewness": -8.222972571980718,
+                "hyperflatness": 22.03776788607371
+            },
+            "col_distribution": {
+                "min": 8,
+                "q1": 27.0,
+                "median": 27.0,
+                "q3": 27.0,
+                "max": 30,
+                "mean": 25.01537589112119,
+                "variance": 14.90175645307046,
+                "skewness": -1.4494742446389242,
+                "kurtosis": 3.5513693639913757,
+                "hyperskewness": -8.222972571980718,
+                "hyperflatness": 22.03776788607371
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 37518636,
+                "time": 80500.8,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 202.79860353130418,
+                "generate": {
+                    "components": {},
+                    "time": 19550
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1687871606
+                },
+                "residual_norm": 2.7193755161442019e-8,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 202.79860353130418,
+                "generate": {
+                    "components": {},
+                    "time": 24722394
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 5032,
+                    "time": 1056988023
+                },
+                "residual_norm": 2.029596749939848e-8,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 202.79860353130418,
+                "generate": {
+                    "components": {},
+                    "time": 24377639
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 5027,
+                    "time": 964628221
+                },
+                "residual_norm": 2.0243890234272735e-8,
+                "completed": true
+            }
+        }
+    }
+]
