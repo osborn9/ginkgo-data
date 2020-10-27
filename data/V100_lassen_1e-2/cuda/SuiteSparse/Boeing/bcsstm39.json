@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Boeing/bcsstm39/bcsstm39.mtx",
+        "problem": {
+            "id": 349,
+            "group": "Boeing",
+            "name": "bcsstm39",
+            "rows": 46772,
+            "cols": 46772,
+            "nonzeros": 46772,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 1,
+                "mean": 1.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 1.0,
+                "median": 1.0,
+                "q3": 1.0,
+                "max": 1,
+                "mean": 1.0,
+                "variance": 0.0,
+                "skewness": 0.0,
+                "kurtosis": 0.0,
+                "hyperskewness": 0.0,
+                "hyperflatness": 0.0
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 748356,
+                "time": 25922.6,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 124.53901172818004,
+                "generate": {
+                    "components": {},
+                    "time": 18503
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 491,
+                    "time": 71870264
+                },
+                "residual_norm": 1.112805038171176e-8,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 124.53901172818004,
+                "generate": {
+                    "components": {},
+                    "time": 6878652
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 1,
+                    "time": 746126
+                },
+                "residual_norm": 9.620508336773349e-15,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 124.53901172818004,
+                "generate": {
+                    "components": {},
+                    "time": 7305540
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 3,
+                    "time": 1004167
+                },
+                "residual_norm": 1.095525233665307e-9,
+                "completed": true
+            }
+        }
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Janna/Queen_4147/Queen_4147.mtx",
+        "problem": {
+            "id": 2660,
+            "group": "Janna",
+            "name": "Queen_4147",
+            "rows": 4147110,
+            "cols": 4147110,
+            "nonzeros": 316548962,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "2D/3D problem",
+            "row_distribution": {
+                "min": 24,
+                "q1": 81.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 79.45274757602282,
+                "variance": 40.2167142640327,
+                "skewness": -3.912307530477084,
+                "kurtosis": 16.708991031679937,
+                "hyperskewness": -73.58101304423075,
+                "hyperflatness": 340.38929088200146
+            },
+            "col_distribution": {
+                "min": 24,
+                "q1": 81.0,
+                "median": 81.0,
+                "q3": 81.0,
+                "max": 81,
+                "mean": 79.45274757602282,
+                "variance": 40.2167142640327,
+                "skewness": -3.912307530477084,
+                "kurtosis": 16.708991031679937,
+                "hyperskewness": -73.58101304423075,
+                "hyperflatness": 340.38929088200146
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 3815175988,
+                "time": 5260329.0,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 1175.8380945642126,
+                "generate": {
+                    "components": {},
+                    "time": 18763
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 59575226590
+                },
+                "residual_norm": 58812.08495769413,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 1175.8380945642126,
+                "generate": {
+                    "components": {},
+                    "time": 1389057598
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 72265538069
+                },
+                "residual_norm": 0.0015718616023986184,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 1175.8380945642126,
+                "generate": {
+                    "components": {},
+                    "time": 1399995989
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 68495586704
+                },
+                "residual_norm": 0.0013602966566013525,
+                "completed": true
+            }
+        }
+    }
+]

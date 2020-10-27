@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Wissgott/parabolic_fem/parabolic_fem.mtx",
+        "problem": {
+            "id": 1853,
+            "group": "Wissgott",
+            "name": "parabolic_fem",
+            "rows": 525825,
+            "cols": 525825,
+            "nonzeros": 3674625,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "computational fluid dynamics problem",
+            "row_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.988304093567251,
+                "variance": 0.023296857653536324,
+                "skewness": -12.993782202517402,
+                "kurtosis": 170.34804540434829,
+                "hyperskewness": -2245.966630269228,
+                "hyperflatness": 29936.3094691801
+            },
+            "col_distribution": {
+                "min": 3,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 7,
+                "mean": 6.988304093567251,
+                "variance": 0.023296857653536324,
+                "skewness": -12.993782202517402,
+                "kurtosis": 170.34804540434829,
+                "hyperskewness": -2245.966630269228,
+                "hyperflatness": 29936.3094691801
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 46198804,
+                "time": 129553.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 418.3070549778554,
+                "generate": {
+                    "components": {},
+                    "time": 18531
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 3468,
+                    "time": 952973929
+                },
+                "residual_norm": 4.158872680697674e-8,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 418.3070549778554,
+                "generate": {
+                    "components": {},
+                    "time": 75009381
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 3135,
+                    "time": 1363841201
+                },
+                "residual_norm": 4.1671695628573468e-8,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 418.3070549778554,
+                "generate": {
+                    "components": {},
+                    "time": 77458125
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 3134,
+                    "time": 1103672141
+                },
+                "residual_norm": 4.182338295947295e-8,
+                "completed": true
+            }
+        }
+    }
+]

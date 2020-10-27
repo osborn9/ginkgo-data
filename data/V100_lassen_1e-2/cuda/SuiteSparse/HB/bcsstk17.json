@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/HB/bcsstk17/bcsstk17.mtx",
+        "problem": {
+            "id": 39,
+            "group": "HB",
+            "name": "bcsstk17",
+            "rows": 10974,
+            "cols": 10974,
+            "nonzeros": 428650,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 1,
+                "q1": 27.0,
+                "median": 45.0,
+                "q3": 54.0,
+                "max": 150,
+                "mean": 39.06050665208675,
+                "variance": 237.5778953510799,
+                "skewness": -0.7071243344510887,
+                "kurtosis": 4.3890639482767,
+                "hyperskewness": 5.182341900924226,
+                "hyperflatness": 89.87782972075259
+            },
+            "col_distribution": {
+                "min": 1,
+                "q1": 27.0,
+                "median": 45.0,
+                "q3": 54.0,
+                "max": 150,
+                "mean": 39.06050665208675,
+                "variance": 237.5778953510799,
+                "skewness": -0.7071243344510887,
+                "kurtosis": 4.3890639482767,
+                "hyperskewness": 5.182341900924226,
+                "hyperflatness": 89.87782972075259
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 5187700,
+                "time": 44561.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 60.49340215456629,
+                "generate": {
+                    "components": {},
+                    "time": 17554
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1498445529
+                },
+                "residual_norm": 600.4104819981039,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 60.49340215456629,
+                "generate": {
+                    "components": {},
+                    "time": 3537879
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 1843,
+                    "time": 262676412
+                },
+                "residual_norm": 5.986055970125309e-9,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 60.49340215456629,
+                "generate": {
+                    "components": {},
+                    "time": 3443020
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 1844,
+                    "time": 263276108
+                },
+                "residual_norm": 5.815412218803111e-9,
+                "completed": true
+            }
+        }
+    }
+]

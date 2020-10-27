@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/DNVS/ship_003/ship_003.mtx",
+        "problem": {
+            "id": 1278,
+            "group": "DNVS",
+            "name": "ship_003",
+            "rows": 121728,
+            "cols": 121728,
+            "nonzeros": 3777036,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 18,
+                "q1": 54.0,
+                "median": 66.0,
+                "q3": 78.0,
+                "max": 144,
+                "mean": 66.42706690325973,
+                "variance": 349.46479446037076,
+                "skewness": 0.22344193347260669,
+                "kurtosis": 2.5237998852551954,
+                "hyperskewness": 1.7561026013292789,
+                "hyperflatness": 10.582098360995886
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 54.0,
+                "median": 66.0,
+                "q3": 78.0,
+                "max": 144,
+                "mean": 66.42706690325973,
+                "variance": 349.46479446037076,
+                "skewness": 0.22344193347260669,
+                "kurtosis": 2.5237998852551954,
+                "hyperskewness": 1.7561026013292789,
+                "hyperflatness": 10.582098360995886
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 45811348,
+                "time": 96860.1,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 201.31764314285128,
+                "generate": {
+                    "components": {},
+                    "time": 18185
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1851908070
+                },
+                "residual_norm": 7055.6920496851,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 201.31764314285128,
+                "generate": {
+                    "components": {},
+                    "time": 25281274
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 4132,
+                    "time": 927787068
+                },
+                "residual_norm": 5.137051077393219e-7,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 201.31764314285128,
+                "generate": {
+                    "components": {},
+                    "time": 24725885
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 4133,
+                    "time": 924853581
+                },
+                "residual_norm": 5.336963886738945e-7,
+                "completed": true
+            }
+        }
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Nasa/nasa1824/nasa1824.mtx",
+        "problem": {
+            "id": 757,
+            "group": "Nasa",
+            "name": "nasa1824",
+            "rows": 1824,
+            "cols": 1824,
+            "nonzeros": 39208,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 18.0,
+                "q3": 27.0,
+                "max": 42,
+                "mean": 21.49561403508772,
+                "variance": 49.58112111418948,
+                "skewness": 0.5174195340342678,
+                "kurtosis": 3.083742080525084,
+                "hyperskewness": 4.834103697063038,
+                "hyperflatness": 17.680921360366065
+            },
+            "col_distribution": {
+                "min": 6,
+                "q1": 18.0,
+                "median": 18.0,
+                "q3": 27.0,
+                "max": 42,
+                "mean": 21.49561403508772,
+                "variance": 49.58112111418948,
+                "skewness": 0.5174195340342678,
+                "kurtosis": 3.083742080525084,
+                "hyperskewness": 4.834103697063038,
+                "hyperflatness": 17.680921360366065
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 477796,
+                "time": 27326.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 25.068231904979766,
+                "generate": {
+                    "components": {},
+                    "time": 17521
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 8067,
+                    "time": 1218765293
+                },
+                "residual_norm": 2.4647739131609718e-9,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 25.068231904979766,
+                "generate": {
+                    "components": {},
+                    "time": 846274
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 875,
+                    "time": 129178361
+                },
+                "residual_norm": 2.018812548359261e-9,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 25.068231904979766,
+                "generate": {
+                    "components": {},
+                    "time": 964783
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 875,
+                    "time": 129046628
+                },
+                "residual_norm": 2.2591357941663408e-9,
+                "completed": true
+            }
+        }
+    }
+]

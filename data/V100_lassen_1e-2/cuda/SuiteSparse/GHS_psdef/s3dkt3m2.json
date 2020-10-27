@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/GHS_psdef/s3dkt3m2/s3dkt3m2.mtx",
+        "problem": {
+            "id": 1276,
+            "group": "GHS_psdef",
+            "name": "s3dkt3m2",
+            "rows": 90449,
+            "cols": 90449,
+            "nonzeros": 3686223,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 7,
+                "q1": 42.0,
+                "median": 42.0,
+                "q3": 42.0,
+                "max": 42,
+                "mean": 41.49809284790324,
+                "variance": 7.1941969619668379,
+                "skewness": -6.273180230586354,
+                "kurtosis": 44.71109017011082,
+                "hyperskewness": -333.0951923589464,
+                "hyperflatness": 2547.771561455838
+            },
+            "col_distribution": {
+                "min": 7,
+                "q1": 42.0,
+                "median": 42.0,
+                "q3": 42.0,
+                "max": 42,
+                "mean": 41.49809284790324,
+                "variance": 7.1941969619668379,
+                "skewness": -6.273180230586354,
+                "kurtosis": 44.71109017011082,
+                "hyperskewness": -333.0951923589464,
+                "hyperflatness": 2547.771561455838
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 44596476,
+                "time": 98974.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 173.53547283814116,
+                "generate": {
+                    "components": {},
+                    "time": 19829
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1805619740
+                },
+                "residual_norm": 959.4524947182674,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 173.53547283814116,
+                "generate": {
+                    "components": {},
+                    "time": 18082452
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 2065530929
+                },
+                "residual_norm": 0.0005311748506847676,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 173.53547283814116,
+                "generate": {
+                    "components": {},
+                    "time": 18021831
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 2068600091
+                },
+                "residual_norm": 0.0005311748506847676,
+                "completed": true
+            }
+        }
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Janna/Emilia_923/Emilia_923.mtx",
+        "problem": {
+            "id": 2542,
+            "group": "Janna",
+            "name": "Emilia_923",
+            "rows": 923136,
+            "cols": 923136,
+            "nonzeros": 40373538,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 15,
+                "q1": 45.0,
+                "median": 45.0,
+                "q3": 45.0,
+                "max": 57,
+                "mean": 44.41946365432612,
+                "variance": 13.84387397348895,
+                "skewness": -1.405251477521965,
+                "kurtosis": 7.819922404492659,
+                "hyperskewness": -21.860001049133829,
+                "hyperflatness": 106.1592825550872
+            },
+            "col_distribution": {
+                "min": 15,
+                "q1": 45.0,
+                "median": 45.0,
+                "q3": 45.0,
+                "max": 57,
+                "mean": 44.41946365432612,
+                "variance": 13.84387397348895,
+                "skewness": -1.405251477521965,
+                "kurtosis": 7.819922404492659,
+                "hyperskewness": -21.860001049133829,
+                "hyperflatness": 106.1592825550872
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 488175004,
+                "time": 760864.9,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 554.620302707733,
+                "generate": {
+                    "components": {},
+                    "time": 18179
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 9694719103
+                },
+                "residual_norm": 61551.69749165006,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 554.620302707733,
+                "generate": {
+                    "components": {},
+                    "time": 224157997
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 9845,
+                    "time": 12321581175
+                },
+                "residual_norm": 5.7071624536564758e-8,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 554.620302707733,
+                "generate": {
+                    "components": {},
+                    "time": 228812402
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 9866,
+                    "time": 11176461935
+                },
+                "residual_norm": 5.727121208417287e-8,
+                "completed": true
+            }
+        }
+    }
+]

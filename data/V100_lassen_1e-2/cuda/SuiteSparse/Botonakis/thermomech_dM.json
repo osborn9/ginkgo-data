@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Botonakis/thermomech_dM/thermomech_dM.mtx",
+        "problem": {
+            "id": 2259,
+            "group": "Botonakis",
+            "name": "thermomech_dM",
+            "rows": 204316,
+            "cols": 204316,
+            "nonzeros": 1423116,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "thermal problem",
+            "row_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 10,
+                "mean": 6.965269484523973,
+                "variance": 0.511568121254413,
+                "skewness": -0.3908770219861114,
+                "kurtosis": 4.212310333052584,
+                "hyperskewness": -4.1791779630409489,
+                "hyperflatness": 29.17947987436976
+            },
+            "col_distribution": {
+                "min": 4,
+                "q1": 7.0,
+                "median": 7.0,
+                "q3": 7.0,
+                "max": 10,
+                "mean": 6.965269484523973,
+                "variance": 0.511568121254413,
+                "skewness": -0.3908770219861114,
+                "kurtosis": 4.212310333052584,
+                "hyperskewness": -4.1791779630409489,
+                "hyperflatness": 29.17947987436976
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 17894660,
+                "time": 63910.7,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 260.7766705784644,
+                "generate": {
+                    "components": {},
+                    "time": 18315
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 89,
+                    "time": 16500672
+                },
+                "residual_norm": 2.3749925801024759e-8,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 260.7766705784644,
+                "generate": {
+                    "components": {},
+                    "time": 30308488
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 21,
+                    "time": 7528808
+                },
+                "residual_norm": 2.5732503327881234e-8,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 260.7766705784644,
+                "generate": {
+                    "components": {},
+                    "time": 30435677
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 21,
+                    "time": 6988503
+                },
+                "residual_norm": 2.5732480649669487e-8,
+                "completed": true
+            }
+        }
+    }
+]

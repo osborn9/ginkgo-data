@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "/p/gpfs1/osborn9/ssget/MM/Simon/raefsky4/raefsky4.mtx",
+        "problem": {
+            "id": 817,
+            "group": "Simon",
+            "name": "raefsky4",
+            "rows": 19779,
+            "cols": 19779,
+            "nonzeros": 1316789,
+            "real": true,
+            "binary": false,
+            "2d3d": true,
+            "posdef": true,
+            "psym": 1,
+            "nsym": 1,
+            "kind": "structural problem",
+            "row_distribution": {
+                "min": 18,
+                "q1": 54.0,
+                "median": 72.0,
+                "q3": 81.0,
+                "max": 177,
+                "mean": 67.17280954547752,
+                "variance": 254.6031314512373,
+                "skewness": -0.1068418747772464,
+                "kurtosis": 3.775295342484353,
+                "hyperskewness": 9.183963457012208,
+                "hyperflatness": 75.83419815422153
+            },
+            "col_distribution": {
+                "min": 18,
+                "q1": 54.0,
+                "median": 72.0,
+                "q3": 81.0,
+                "max": 177,
+                "mean": 67.17280954547752,
+                "variance": 254.6031314512373,
+                "skewness": -0.1068418747772464,
+                "kurtosis": 3.775295342484353,
+                "hyperskewness": 9.183963457012208,
+                "hyperflatness": 75.83419815422153
+            }
+        },
+        "spmv": {
+            "csr": {
+                "storage": 15880588,
+                "time": 47513.5,
+                "completed": true
+            }
+        },
+        "optimal": {
+            "spmv": "csr"
+        },
+        "solver": {
+            "cg": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 80.94796226399598,
+                "generate": {
+                    "components": {},
+                    "time": 763388
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1443642243
+                },
+                "residual_norm": 239.7693019204557,
+                "completed": true
+            },
+            "cg-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 80.94796226399598,
+                "generate": {
+                    "components": {},
+                    "time": 7177291
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1370103070
+                },
+                "residual_norm": 1175.0156895823484,
+                "completed": true
+            },
+            "cg-adaptive-jacobi": {
+                "recurrent_residuals": [],
+                "true_residuals": [],
+                "rhs_norm": 80.94796226399598,
+                "generate": {
+                    "components": {},
+                    "time": 7824883
+                },
+                "apply": {
+                    "components": {},
+                    "iterations": 10000,
+                    "time": 1362730695
+                },
+                "residual_norm": 301.671656081793,
+                "completed": true
+            }
+        }
+    }
+]
